@@ -1,0 +1,17 @@
+[build]
+  # This command is run to build your site.
+  command = "npm run build"
+  # The directory where the built site is located. For Vite, it's "dist".
+  publish = "dist"
+
+[build.environment]
+  # Specify a Node.js version to ensure consistency.
+  NODE_VERSION = "20"
+
+# This rule is crucial for single-page applications (SPAs) like yours.
+# It ensures that all paths are redirected to your index.html,
+# allowing React Router to handle the routing on the client-side.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
