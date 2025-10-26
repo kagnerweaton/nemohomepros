@@ -9,6 +9,8 @@ import ContactPage from './pages/ContactPage';
 import BlogListPage from './pages/BlogListPage';
 import BlogPostPage from './pages/BlogPostPage';
 import ScrollToTop from './components/ScrollToTop';
+import ContractorSearchPage from './pages/ContractorSearchPage';
+import ContractorProfilePage from './pages/ContractorProfilePage';
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
             <Route path="/blog" element={<BlogListPage />} />
             <Route path="/blog/:slug" element={<BlogPostPage />} />
             <Route path="/list-business" element={<ListBusinessPage />} />
+            <Route path="/contractors/:serviceId" element={<ContractorSearchPage />} />
+            <Route path="/contractor/:contractorId" element={<ContractorProfilePage />} />
           </Routes>
         </main>
         <Footer />

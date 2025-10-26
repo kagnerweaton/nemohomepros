@@ -9,7 +9,8 @@
     "location": "Springfield, USA",
     "service_area": ["Downtown", "Northside", "River Valley"],
     "sub_types": ["Emergency Plumbing", "Drain Cleaning", "Water Heaters"],
-    "image_url": "https://images.pexels.com/photos/4210315/pexels-photo-4210315.jpeg?auto=compress&cs=tinysrgb&w=600"
+    "image_url": "https://images.pexels.com/photos/4210315/pexels-photo-4210315.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "is_nemo_certified": false
   },
   {
     "id": "c2",
@@ -21,7 +22,8 @@
     "location": "Metropolis, USA",
     "service_area": ["Downtown", "Southside", "West End"],
     "sub_types": ["Panel Upgrades", "Residential Wiring", "Lighting Installation"],
-    "image_url": "https://images.pexels.com/photos/577210/pexels-photo-577210.jpeg?auto=compress&cs=tinysrgb&w=600"
+    "image_url": "https://images.pexels.com/photos/577210/pexels-photo-577210.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "is_nemo_certified": true
   },
   {
     "id": "c3",
@@ -33,7 +35,8 @@
     "location": "Springfield, USA",
     "service_area": ["Northside", "East End", "Suburbs"],
     "sub_types": ["Roof Repair", "Shingle Replacement", "Metal Roofing"],
-    "image_url": "https://images.pexels.com/photos/5938346/pexels-photo-5938346.jpeg?auto=compress&cs=tinysrgb&w=600"
+    "image_url": "https://images.pexels.com/photos/5938346/pexels-photo-5938346.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "is_nemo_certified": false
   },
   {
     "id": "c4",
@@ -45,7 +48,8 @@
     "location": "Green Valley, USA",
     "service_area": ["Southside", "West End", "East End"],
     "sub_types": ["Landscape Design", "Lawn Maintenance", "Hardscaping"],
-    "image_url": "https://images.pexels.com/photos/2962033/pexels-photo-2962033.jpeg?auto=compress&cs=tinysrgb&w=600"
+    "image_url": "https://images.pexels.com/photos/2962033/pexels-photo-2962033.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "is_nemo_certified": false
   },
   {
     "id": "c5",
@@ -57,7 +61,8 @@
     "location": "Metropolis, USA",
     "service_area": ["Downtown", "West End", "Uptown"],
     "sub_types": ["Interior Painting", "Exterior Painting", "Commercial Painting"],
-    "image_url": "https://images.pexels.com/photos/6434053/pexels-photo-6434053.jpeg?auto=compress&cs=tinysrgb&w=600"
+    "image_url": "https://images.pexels.com/photos/6434053/pexels-photo-6434053.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "is_nemo_certified": false
   },
   {
     "id": "c6",
@@ -69,7 +74,8 @@
     "location": "Springfield, USA",
     "service_area": ["Downtown", "Northside", "Southside", "East End", "West End"],
     "sub_types": ["Home Renovation", "Kitchen & Bath", "Additions"],
-    "image_url": "https://images.pexels.com/photos/159306/construction-site-build-construction-work-159306.jpeg?auto=compress&cs=tinysrgb&w=600"
+    "image_url": "https://images.pexels.com/photos/159306/construction-site-build-construction-work-159306.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "is_nemo_certified": false
   },
   {
     "id": "c7",
@@ -81,7 +87,8 @@
     "location": "Metropolis, USA",
     "service_area": ["Downtown", "Uptown", "Suburbs"],
     "sub_types": ["AC Repair", "Furnace Installation", "Air Quality Testing"],
-    "image_url": "https://images.pexels.com/photos/585419/pexels-photo-585419.jpeg?auto=compress&cs=tinysrgb&w=600"
+    "image_url": "https://images.pexels.com/photos/585419/pexels-photo-585419.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "is_nemo_certified": false
   },
   {
     "id": "c8",
@@ -93,7 +100,8 @@
     "location": "Metropolis, USA",
     "service_area": ["Southside", "East End"],
     "sub_types": ["Sewer Line Repair", "Fixture Installation", "24/7 Service"],
-    "image_url": "https://images.pexels.com/photos/8005396/pexels-photo-8005396.jpeg?auto=compress&cs=tinysrgb&w=600"
+    "image_url": "https://images.pexels.com/photos/8005396/pexels-photo-8005396.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "is_nemo_certified": false
   },
   {
     "id": "c9",
@@ -105,7 +113,8 @@
     "location": "Springfield, USA",
     "service_area": ["Northside", "East End", "Downtown"],
     "sub_types": ["Smart Home Setup", "EV Charger Installation", "Code Compliance"],
-    "image_url": "https://images.pexels.com/photos/8005363/pexels-photo-8005363.jpeg?auto=compress&cs=tinysrgb&w=600"
+    "image_url": "https://images.pexels.com/photos/8005363/pexels-photo-8005363.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "is_nemo_certified": false
   },
   {
     "id": "c10",
@@ -117,7 +126,8 @@
     "location": "Metropolis, USA",
     "service_area": ["Downtown", "West End", "Southside"],
     "sub_types": ["Leak Detection", "Gutter Installation", "Roof Inspection"],
-    "image_url": "https://images.pexels.com/photos/5938352/pexels-photo-5938352.jpeg?auto=compress&cs=tinysrgb&w=600"
+    "image_url": "https://images.pexels.com/photos/5938352/pexels-photo-5938352.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "is_nemo_certified": false
   },
   {
     "id": "c11",
@@ -129,7 +139,8 @@
     "location": "Green Valley, USA",
     "service_area": ["Downtown", "Northside", "Uptown"],
     "sub_types": ["Patio Design", "Water Features", "Garden Installation"],
-    "image_url": "https://images.pexels.com/photos/4577669/pexels-photo-4577669.jpeg?auto=compress&cs=tinysrgb&w=600"
+    "image_url": "https://images.pexels.com/photos/4577669/pexels-photo-4577669.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "is_nemo_certified": false
   },
   {
     "id": "c12",
@@ -141,7 +152,8 @@
     "location": "Springfield, USA",
     "service_area": ["Southside", "East End", "Northside"],
     "sub_types": ["Wallpaper Removal", "Cabinet Refinishing", "Deck Staining"],
-    "image_url": "https://images.pexels.com/photos/102127/pexels-photo-102127.jpeg?auto=compress&cs=tinysrgb&w=600"
+    "image_url": "https://images.pexels.com/photos/102127/pexels-photo-102127.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "is_nemo_certified": false
   },
   {
     "id": "c13",
@@ -153,7 +165,8 @@
     "location": "Metropolis, USA",
     "service_area": ["West End", "Uptown", "Suburbs"],
     "sub_types": ["Commercial Build-outs", "Custom Homes", "Project Management"],
-    "image_url": "https://images.pexels.com/photos/3184431/pexels-photo-3184431.jpeg?auto=compress&cs=tinysrgb&w=600"
+    "image_url": "https://images.pexels.com/photos/3184431/pexels-photo-3184431.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "is_nemo_certified": false
   },
   {
     "id": "c14",
@@ -165,7 +178,8 @@
     "location": "Springfield, USA",
     "service_area": ["Northside", "River Valley", "East End"],
     "sub_types": ["Ductless Mini-Splits", "Thermostat Installation", "Preventative Maintenance"],
-    "image_url": "https://images.pexels.com/photos/8348699/pexels-photo-8348699.jpeg?auto=compress&cs=tinysrgb&w=600"
+    "image_url": "https://images.pexels.com/photos/8348699/pexels-photo-8348699.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "is_nemo_certified": false
   },
   {
     "id": "c15",
@@ -177,7 +191,8 @@
     "location": "Springfield, USA",
     "service_area": ["West End", "Downtown"],
     "sub_types": ["Hydro Jetting", "Trenchless Sewer Repair", "Leak Detection"],
-    "image_url": "https://images.pexels.com/photos/8462333/pexels-photo-8462333.jpeg?auto=compress&cs=tinysrgb&w=600"
+    "image_url": "https://images.pexels.com/photos/8462333/pexels-photo-8462333.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "is_nemo_certified": false
   },
   {
     "id": "c16",
@@ -189,7 +204,8 @@
     "location": "Metropolis, USA",
     "service_area": ["Southside", "Downtown"],
     "sub_types": ["Emergency Repairs", "Lighting Design", "Generator Installation"],
-    "image_url": "https://images.pexels.com/photos/4219173/pexels-photo-4219173.jpeg?auto=compress&cs=tinysrgb&w=600"
+    "image_url": "https://images.pexels.com/photos/4219173/pexels-photo-4219173.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "is_nemo_certified": false
   },
   {
     "id": "c17",
@@ -201,7 +217,8 @@
     "location": "Springfield, USA",
     "service_area": ["River Valley", "Suburbs", "West End"],
     "sub_types": ["Tile Roofing", "Flat Roofs", "Storm Damage Repair"],
-    "image_url": "https://images.pexels.com/photos/7217995/pexels-photo-7217995.jpeg?auto=compress&cs=tinysrgb&w=600"
+    "image_url": "https://images.pexels.com/photos/7217995/pexels-photo-7217995.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "is_nemo_certified": false
   },
   {
     "id": "c18",
@@ -213,7 +230,8 @@
     "location": "Green Valley, USA",
     "service_area": ["East End", "Suburbs", "Northside"],
     "sub_types": ["Irrigation Systems", "Tree Trimming", "Seasonal Cleanup"],
-    "image_url": "https://images.pexels.com/photos/4219173/pexels-photo-4219173.jpeg?auto=compress&cs=tinysrgb&w=600"
+    "image_url": "https://images.pexels.com/photos/4219173/pexels-photo-4219173.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "is_nemo_certified": false
   },
   {
     "id": "c19",
@@ -225,7 +243,8 @@
     "location": "Metropolis, USA",
     "service_area": ["Uptown", "River Valley", "Southside"],
     "sub_types": ["Drywall Repair", "Faux Finishes", "Pressure Washing"],
-    "image_url": "https://images.pexels.com/photos/7218525/pexels-photo-7218525.jpeg?auto=compress&cs=tinysrgb&w=600"
+    "image_url": "https://images.pexels.com/photos/7218525/pexels-photo-7218525.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "is_nemo_certified": false
   },
   {
     "id": "c20",
@@ -237,6 +256,20 @@
     "location": "Springfield, USA",
     "service_area": ["River Valley", "West End", "Suburbs"],
     "sub_types": ["Basement Finishing", "Deck Building", "Window Replacement"],
-    "image_url": "https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=600"
+    "image_url": "https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "is_nemo_certified": false
+  },
+  {
+    "id": "c21",
+    "name": "Jackson Electric & Sign Inc",
+    "type": "Electrician",
+    "phone": "660-665-2586",
+    "email": "",
+    "website": "",
+    "location": "Kirksville, MO",
+    "service_area": ["Kirksville"],
+    "sub_types": [],
+    "image_url": "https://lh3.googleusercontent.com/p/AF1QipPrP_6U8a5s5h6g8RWWYHMv1llq9_TNnCBjenqq=w800-h500-k-no",
+    "is_nemo_certified": false
   }
 ]

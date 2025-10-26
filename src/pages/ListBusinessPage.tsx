@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowLeft, Building, CheckCircle, Star, Upload, MapPin, Phone, AlertCircle, X } from 'lucide-react';
+import { ArrowLeft, Building, CheckCircle, Upload, MapPin, Phone, AlertCircle, X, ShieldCheck, Briefcase, Award } from 'lucide-react';
 import { contractorTypes } from '../constants/contractorTypes';
 import { supabase } from '../lib/supabase';
 
@@ -23,6 +23,7 @@ const ListBusinessPage: React.FC = () => {
     insured: false,
     specializedTraining: [''],
     images: [] as File[]
+    // Removed: nemo_certified field
   });
 
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -153,7 +154,7 @@ const ListBusinessPage: React.FC = () => {
         specialized_training: filteredTraining,
         image_urls: imageUrls.length > 0 ? imageUrls : null,
         status: 'pending' as const,
-        nemo_certified: false
+        // Removed: nemo_certified: false
       };
 
       const { error: insertError } = await supabase
@@ -183,15 +184,13 @@ const ListBusinessPage: React.FC = () => {
             </div>
             <h1 className="text-3xl font-bold text-black mb-4">Application Submitted Successfully!</h1>
             <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
-              Thank you for your interest in joining NEMO Trades. We've received your application and will review it within 3-5 business days. 
-              You'll receive an email confirmation shortly with next steps.
+              Thank you for your interest in joining NEMO Trades. We've received your application and will review it within 3-5 business days.
             </p>
             <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-6 mb-8 max-w-2xl mx-auto">
               <h3 className="font-semibold text-black mb-2">What happens next?</h3>
               <ul className="text-left text-gray-600 space-y-2">
                 <li>• We'll verify your licensing and insurance information</li>
-                <li>• Our team will review your qualifications for NEMO Certification</li>
-                <li>• You'll receive login credentials to manage your listing</li>
+                <li>• Our team will review your qualifications for listing</li>
                 <li>• Your profile will go live within 5-7 business days</li>
               </ul>
             </div>
@@ -234,21 +233,21 @@ const ListBusinessPage: React.FC = () => {
 
       <section className="py-12 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-bold text-black text-center mb-8">Why List with NEMO Trades?</h2>
+          <h2 className="text-2xl font-bold text-black text-center mb-8">Why List with NEMO Home Pros?</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
             <div className="text-center p-6 bg-yellow-50 rounded-lg">
               <MapPin className="h-8 w-8 text-yellow-600 mx-auto mb-3" />
               <h3 className="font-semibold text-black mb-2">Local Focus</h3>
-              <p className="text-gray-600 text-sm">Connect with customers specifically in Northeast Missouri</p>
+              <p className="text-gray-600 text-sm">Be found by new clients in your service areas</p>
             </div>
             <div className="text-center p-6 bg-yellow-50 rounded-lg">
-              <Star className="h-8 w-8 text-yellow-600 mx-auto mb-3" />
-              <h3 className="font-semibold text-black mb-2">NEMO Certification</h3>
-              <p className="text-gray-600 text-sm">Qualify for our premium certification program</p>
+              <ShieldCheck className="h-8 w-8 text-yellow-600 mx-auto mb-3" />
+              <h3 className="font-semibold text-black mb-2">Quality Vetting</h3>
+              <p className="text-gray-600 text-sm">We ensure all listed pros meet high standards of quality</p>
             </div>
             <div className="text-center p-6 bg-yellow-50 rounded-lg">
               <Phone className="h-8 w-8 text-yellow-600 mx-auto mb-3" />
-              <h3 className="font-semibold text-black mb-2">Direct Leads</h3>
+              <h3 className="font-semibold text-black mb-2">Quality Leads</h3>
               <p className="text-gray-600 text-sm">Customers contact you directly for quotes and projects</p>
             </div>
           </div>
@@ -303,7 +302,7 @@ const ListBusinessPage: React.FC = () => {
 
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">
-                  Services You Offer *
+                  Service(s) You Offer *
                 </label>
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
                   {contractorTypes.map(type => (
@@ -481,7 +480,7 @@ const ListBusinessPage: React.FC = () => {
               </div>
 
               <div>
-                <h3 className="text-lg font-semibold text-black mb-4">Certifications & Credentials</h3>
+                <h3 className="text-lg font-semibold text-black mb-4">Credentials</h3>
                 <div className="space-y-3">
                   <label className="flex items-center space-x-3">
                     <input
@@ -582,15 +581,7 @@ const ListBusinessPage: React.FC = () => {
                 </div>
               </div>
 
-              <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-6">
-                <div className="flex items-center space-x-2 mb-3">
-                  <Star className="h-5 w-5 text-yellow-600" />
-                  <h3 className="font-semibold text-black">NEMO Certification Eligibility</h3>
-                </div>
-                <p className="text-gray-600 text-sm">
-                  NEMO Certified pros are those who are licensed and insured, have completed over 100 projects, and have a portfolio of their work on NEMO Home Pros for potential clients to view. We will verify your information upon submission.
-                </p>
-              </div>
+              {/* Removed: NEMO Certification Eligibility box */}
 
               <div className="text-center pt-6">
                 <button
